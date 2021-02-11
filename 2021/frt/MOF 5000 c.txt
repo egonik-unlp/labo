@@ -1,0 +1,10 @@
+Item name: MOF 5000 c
+
+Real time: 181.282
+Live time: 0
+Time calibration: 0.1097394ns/ch
+
+Comment: 
+
+
+Chan	Data

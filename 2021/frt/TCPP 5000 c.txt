@@ -1,0 +1,10 @@
+Item name: TCPP 5000 c
+
+Real time: 148.796
+Live time: 0
+Time calibration: 0.1097394ns/ch
+
+Comment: 
+
+
+Chan	Data

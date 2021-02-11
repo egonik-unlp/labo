@@ -1,0 +1,10 @@
+Item name: Prompt
+
+Real time: 0.906
+Live time: 0
+Time calibration: 0.1097394ns/ch
+
+Comment: 
+
+
+Chan	Data

@@ -33,7 +33,7 @@ def das_parser(das_file):
           k += 1
           
 
-def main(file_input, exts, max_em, filename):
+def main(file_input, exts, max_em, muestra, filename):
     das_parser(file_input)
     dataframes = [(int(file[6:-4])  ,pd.read_csv(file, sep= '\t')) for file in os.listdir() if 'Decay' in file]
     
@@ -51,11 +51,11 @@ def main(file_input, exts, max_em, filename):
     for tau in taus:
       emm_int = tablas.loc[tau,:]
       ax[0].plot(tablas[max_em].loc[taus[0]:taus[-1]] , c = 'black')
-      ax[0].set_title(r'Fluorescencia resuelta en el tiempo de Zr -nMOF para $\lambda_{em} $ = 650 nm ', fontsize = 16)
+      ax[0].set_title(f'Fluorescencia resuelta en el tiempo de {muestra}' r' para $\lambda_{em} $ = 650 nm ', fontsize = 16)
       ax[0].set_xlabel(r'$\tau$ (ns)', fontsize = 16)
       ax[0].axvline(tau)
       ax[1].plot(tablas.columns,emm_int, c = 'g')
-      ax[1].set_title(rf'Espectro de emision de Zr-nMOF para distintos $\tau$', fontsize = 16)
+      ax[1].set_title(f'Espectro de emision de {muestra} ' r'para distintos $\tau$', fontsize = 16)
       ax[1].set_xlabel(r'$\lambda_{em} (nm)$', fontsize = 16)
       ax[1].legend([rf'$\tau = {tau:0.2f}$ ns'], fontsize = 14)
       camera.snap()
@@ -71,6 +71,7 @@ if __name__ == '__main__':
     exts = [le,he]
     max_em = int(input('máximo de emisión: '))
     filename = input('nombre de archivo de salida: ')
-    main(sys.argv[1], exts, max_em, filename)
+    muestra = input('sustancia de muestra: ')
+    main(sys.argv[1], exts, max_em, muestra, filename)
     
     

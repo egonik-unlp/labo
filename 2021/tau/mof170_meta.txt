@@ -1,0 +1,69 @@
+Calculated using 2 exponentials
+
+Prompt data : prompt_mof_15nm
+Decay data : mof170
+
+The initial paramters are:
+
+ Shift Value = 0 ch
+               0 sec
+ Shift Limit = 40 ch
+               2.194787E-09 sec
+
+ T1 Estimate = 38.62173 ch
+               2.119162E-09 sec
+ T2 Estimate = 154.4869 ch
+               8.47665E-09 sec
+
+ A Free
+ B1 Free
+ B2 Free
+
+ Prompt LO = 210 ch
+             1.152263E-08 sec
+ Prompt HI = 239 ch
+             1.311385E-08 sec
+ Decay LO = 238 ch
+            1.305899E-08 sec
+ Decay HI = 310 ch
+            1.70096E-08 sec
+
+ Background on prompt = 258
+ Time calibration = 5.486969E-11 sec/ch
+---------------------------------------------
+The fitted parameters are:
+
+ SHIFT = 8.880559 ch
+         4.872735E-10 sec
+         S.Dev = 1.100843E-11 sec
+
+ T1 = 41.47617 ch
+      2.275785E-09 sec
+      S.Dev = 1.013249E-11 sec
+ T2 = 12.18983 ch
+      6.68852E-10 sec
+      S.Dev = 2.550601E-11 sec
+
+ A  = -117.1572
+      S.Dev = 9.554559
+
+ B1 = 1.285853E-02
+      [36.90 Rel.Ampl]
+      S.Dev = 4.002526E-04
+ B2 = 7.483115E-02
+      [63.10 Rel.Ampl]
+      S.Dev = 7.976815E-04
+
+ CHISQ = 1.096708
+ [ 67 degrees of freedom ]
+
+ Chi-squared Probability =    27.5706%
+ Durbin-Watson Parameter =   1.914563
+ Negative residuals      =   45.20548%
+ Residuals < 1 s.dev     =   67.12329%
+ Residuals < 2 s.dev     =   98.63013%
+ Residuals < 3 s.dev     =   98.63013%
+ Residuals < 4 s.dev     =        100%
+
+
+

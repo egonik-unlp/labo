@@ -1,0 +1,59 @@
+Calculated using 1 exponential
+
+Prompt data : prompt_tcpp
+Decay data : tcpp
+
+The initial paramters are:
+
+ Shift Value = 0 ch
+               0 sec
+ Shift Limit = 40 ch
+               2.194787E-09 sec
+
+ T1 Estimate = 208.027 ch
+               1.141437E-08 sec
+
+ A Free
+ B1 Free
+
+ Prompt LO = 215 ch
+             1.179698E-08 sec
+ Prompt HI = 245 ch
+             1.344307E-08 sec
+ Decay LO = 240 ch
+            1.316872E-08 sec
+ Decay HI = 500 ch
+            2.743484E-08 sec
+
+ Background on prompt = 946
+ Time calibration = 5.486969E-11 sec/ch
+---------------------------------------------
+The fitted parameters are:
+
+ SHIFT = 5.644668 ch
+         3.097211E-10 sec
+         S.Dev = 9.009011E-12 sec
+
+ T1 = 214.6454 ch
+      1.177752E-08 sec
+      S.Dev = 3.329239E-10 sec
+
+ A  = -243.3457
+      S.Dev = 10.41462
+
+ B1 = 3.709785E-02
+      [100.00 Rel.Ampl]
+      S.Dev = 1.305154E-04
+
+ CHISQ = 1.452407
+ [ 257 degrees of freedom ]
+
+ Chi-squared Probability = 2.9117E-04%
+ Durbin-Watson Parameter =   1.415722
+ Negative residuals      =   49.42529%
+ Residuals < 1 s.dev     =    57.8544%
+ Residuals < 2 s.dev     =    90.8046%
+ Residuals < 3 s.dev     =   98.08429%
+ Residuals < 4 s.dev     =        100%
+
+

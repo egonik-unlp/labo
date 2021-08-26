@@ -1,0 +1,46 @@
+EXPERIMENT SUMMARY:
+Experiment Type: 3D Acquisition[Excitation vs Emission vs Intensity]
+Experiment Comment: 3D Acquisition[Excitation vs Emission vs Intensity]
+Rayleigh Masking 1st Order Enable: False
+Rayleigh Masking 2nd Order Enable: False
+Rayleigh Masking Slit Width: 0.000000
+
+
+GENERAL PARAMETERS:
+Data Identifier: DfltThreeD
+Number of Data Points: 6141
+Integration Time: 0.100000s
+
+EM1: IHR 320 (Mono16)
+Start: 311.00nm
+End: 665.00nm
+Increment: 4.00nm
+Side Entrance Slit: 5.00 nmBandpass 
+Front Exit Slit: 5.00 nmBandpass 
+Side Exit Slit: 5.00 nmBandpass 
+Grating: Density 1200 (Blaze: 500)
+
+EX1: Excitation 1 (Mono17)
+Start: 300.00nm
+End: 575.00nm
+Increment: 4.00nm
+Side Entrance Slit: 5.00 nmBandpass 
+Side Exit Slit: 5.00 nmBandpass 
+Grating: Density 1200 (Blaze: 330)
+
+Detector: R (SCD24)
+Units: MicroAmps
+Corrected: C:\Documents and Settings\Dr.Capparelli\Desktop\HBR\CorrectionFactors_1111C_5108\XCorr330.spcC:\Documents and Settings\Dr.Capparelli\Desktop\HBR\CorrectionFactors_1111C_5108\XCorr500.spc
+
+Detector: A (SCD25)
+Units: CPS
+Corrected: C:\Documents and Settings\Dr.Capparelli\Desktop\HBR\CorrectionFactors_1111C_5108\MTBX330Correct.SPCC:\Documents and Settings\Dr.Capparelli\Desktop\HBR\CorrectionFactors_1111C_5108\M928500Correct.spc
+
+Detector Algebra Formula:
+1. A1c / R1c
+Detector Accumulations: 1
+Accumulations Mode: None
+Detector Cycles: 1
+
+
+ACCESSORIES:
